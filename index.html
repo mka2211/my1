@@ -70,6 +70,237 @@
        
         
     </section>
+ <section class="bg-[#121212] text-white py-20 px-4 font-['Inter']">
+    <div class="max-w-6xl mx-auto">
+        
+        <div class="mb-16">
+            <h1 class="text-4xl md:text-[40px] font-bold leading-tight mb-10">
+                Заголовок H1 <span class="font-light opacity-50 ml-4 hidden md:inline">Font Inter 60px</span>
+            </h1>
+            
+            <div class="space-y-1">
+                <p class="text-[12px] text-gray-500 uppercase tracking-widest">Хлебные крошки</p>
+                <nav class="text-sm text-gray-400">
+                    <a href="#" class="hover:text-white">Главная</a> — 
+                    <a href="#" class="hover:text-white">Главная</a> — 
+                    <span class="text-[#a37a53]">Главная</span>
+                </nav>
+            </div>
+        </div>
 
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
+            
+            <div class="bg-[#1c1c1c] p-8 md:p-12 rounded-[40px] shadow-2xl border border-white/5">
+                <h2 class="text-[#a37a53] text-3xl md:text-4xl font-bold mb-10 text-center uppercase tracking-tight">Заполните поля</h2>
+                <div class="space-y-5">
+                    <input type="text" placeholder="Имя" class="w-full bg-transparent border border-gray-700 rounded-full py-4 px-7 outline-none focus:border-[#a37a53] transition-colors text-sm">
+                    <input type="text" placeholder="Телефон" class="w-full bg-transparent border border-gray-700 rounded-full py-4 px-7 outline-none focus:border-[#a37a53] transition-colors text-sm">
+                    <input type="email" placeholder="E-mail" class="w-full bg-transparent border border-gray-700 rounded-full py-4 px-7 outline-none focus:border-[#a37a53] transition-colors text-sm">
+                    
+                    <label class="flex items-start gap-3 cursor-pointer group pt-2">
+                        <input type="checkbox" class="mt-1 w-4 h-4 rounded border-gray-700 bg-transparent accent-[#a37a53]">
+                        <span class="text-[11px] text-gray-500 group-hover:text-gray-300 transition-colors leading-tight">
+                            Соглашаюсь на обработку персональных данных
+                        </span>
+                    </label>
+
+                    <button class="w-full bg-[#a37a53] hover:bg-[#8b6542] text-white font-semibold py-4 rounded-full mt-4 transition-all shadow-lg active:scale-[0.98]">
+                        Отправить
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-[#1c1c1c] p-8 md:p-12 rounded-[40px] shadow-2xl border border-white/5">
+                <h2 class="text-[#a37a53] text-3xl md:text-4xl font-bold mb-10 text-center uppercase tracking-tight">Авторизация</h2>
+                <div class="space-y-5">
+                    <input type="email" placeholder="E-mail" class="w-full bg-transparent border border-gray-700 rounded-full py-4 px-7 outline-none focus:border-[#a37a53] transition-colors text-sm">
+                    
+                    <div class="relative">
+                        <input type="password" placeholder="Пароль" class="w-full bg-transparent border border-gray-700 rounded-full py-4 px-7 outline-none focus:border-[#a37a53] transition-colors text-sm">
+                        <button class="absolute right-6 top-1/2 -translate-y-1/2 opacity-40 hover:opacity-100 transition-opacity">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="text-center">
+                        <a href="./index.html" class="text-sm text-[#a37a53] underline underline-offset-4 opacity-70 hover:opacity-100 transition-opacity">Восстановить пароль</a>
+                    </div>
+
+                    <button class="w-full bg-[#a37a53] hover:bg-[#8b6542] text-white font-semibold py-4 rounded-full mt-4 transition-all shadow-lg active:scale-[0.98]">
+                        Отправить
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
+            
+            <div class="space-y-8">
+                <p class="text-[13px] text-gray-500 leading-relaxed uppercase tracking-widest">
+                    Элементы чекбоксов, радио<br>кнопок, выбор из списка
+                </p>
+
+                <div class="space-y-4">
+                    <label class="flex items-center gap-3 cursor-pointer group">
+                        <div class="w-4 h-4 border border-gray-600 group-hover:border-[#a37a53] transition-colors"></div>
+                        <span class="text-[12px] text-gray-400">Соглашаюсь на обработку персональных данных</span>
+                    </label>
+                    <label class="flex items-center gap-3 cursor-pointer group">
+                        <div class="w-4 h-4 border border-[#a37a53] flex items-center justify-center">
+                            <div class="w-2 h-2 bg-[#a37a53]"></div>
+                        </div>
+                        <span class="text-[12px] text-gray-400">Соглашаюсь на обработку персональных данных</span>
+                    </label>
+                </div>
+
+                <div class="flex gap-16">
+                    <div class="space-y-3">
+                        <label class="flex items-center gap-3 cursor-pointer"><div class="w-4 h-4 border border-gray-600 rounded-full"></div><span class="text-[12px] text-gray-400">Радио-кнопка 1</span></label>
+                        <label class="flex items-center gap-3 cursor-pointer"><div class="w-4 h-4 border border-gray-600 rounded-full"></div><span class="text-[12px] text-gray-400">Радио-кнопка 2</span></label>
+                          <label class="flex items-center gap-3 cursor-pointer"><div class="w-4 h-4 border border-gray-600 rounded-full"></div><span class="text-[12px] text-gray-400">Радио-кнопка 3</span></label>
+                    </div>
+                    <div class="space-y-3">
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <div class="w-4 h-4 border border-[#a37a53] rounded-full flex items-center justify-center">
+                                <div class="w-2 h-2 bg-[#a37a53] rounded-full"></div>
+                            </div>
+                            <span class="text-[12px] text-gray-400">Активная радио-кнопка</span>
+                        </label>
+                        <label class="flex items-center gap-3 cursor-pointer"><div class="w-4 h-4 border border-gray-600 rounded-full"></div><span class="text-[12px] text-gray-400">Радио-кнопка 2</span></label>
+                          <label class="flex items-center gap-3 cursor-pointer"><div class="w-4 h-4 border border-gray-600 rounded-full"></div><span class="text-[12px] text-gray-400">Радио-кнопка 3</span></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <button class="w-full bg-[#a37a53] hover:bg-[#8b6542] text-white font-semibold py-5 rounded-full transition-all shadow-xl">
+                    Отправить
+                </button>
+                <button class="w-full bg-[#4a321f] hover:bg-[#5d3f24] text-white font-semibold py-5 rounded-full transition-all border border-white/5">
+                    Отмена
+                </button>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="bg-[#121212] text-white py-20 px-4 font-['Inter']">
+    <div class="max-w-6xl mx-auto">
+        
+        <div class="mb-20">
+            <h3 class="text-gray-400 text-sm mb-6 uppercase tracking-widest">выбор из списка</h3>
+            <div class="flex flex-col md:flex-row gap-8 items-start">
+                
+                <div class="relative w-full md:w-72">
+                    <div class="border border-white/40 rounded-sm px-4 py-2 flex justify-between items-center cursor-pointer hover:border-white transition-colors">
+                        <span class="text-sm">Lorem ipsum</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="relative w-full md:w-72">
+                    <div class="border border-white rounded-sm px-4 py-2 flex justify-between items-center cursor-pointer">
+                        <span class="text-sm">Lorem ipsum</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                        </svg>
+                    </div>
+                    <div class="mt-1 border border-white/40 bg-[#1a1a1a] rounded-sm overflow-hidden shadow-xl">
+                        <div class="px-4 py-2 text-xs text-gray-300 border-b border-white/10 hover:bg-white/5 cursor-pointer">Lorem ipsum, dolor smit</div>
+                        <div class="px-4 py-2 text-xs text-gray-300 border-b border-white/10 hover:bg-white/5 cursor-pointer">Lorem ipsum, dolor smit</div>
+                        <div class="px-4 py-2 text-xs text-gray-300 border-b border-white/10 hover:bg-white/5 cursor-pointer">Lorem ipsum, dolor smit</div>
+                        <div class="px-4 py-2 text-xs text-gray-300 border-b border-white/10 hover:bg-white/5 cursor-pointer">Lorem ipsum, dolor smit</div>
+                        <div class="px-4 py-2 text-xs text-gray-300 border-b border-white/10 hover:bg-white/5 cursor-pointer">Lorem ipsum, dolor smit</div>
+                        <div class="px-4 py-2 text-xs text-gray-300 hover:bg-white/5 cursor-pointer">Lorem ipsum, dolor smit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24">
+            
+            <div>
+                <h3 class="text-gray-400 text-sm mb-6 uppercase tracking-widest">неупорядоченный</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start gap-3 text-sm text-gray-300">
+                        <span class="text-[#a37a53] mt-1.5">•</span> 
+                        Lorem ipsum, dolor smit
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-gray-300">
+                        <span class="text-[#a37a53] mt-1.5">•</span> 
+                        Lorem ipsum, dolor smit
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-gray-300">
+                        <span class="text-[#a37a53] mt-1.5">•</span> 
+                        Lorem ipsum, dolor smit Lorem ipsum, dolor smit
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-gray-300">
+                        <span class="text-[#a37a53] mt-1.5">•</span> 
+                        Lorem ipsum, dolor smit
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-gray-300">
+                        <span class="text-[#a37a53] mt-1.5">•</span> 
+                        Lorem ipsum, dolor smit Lorem ipsum, dolor smit
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-gray-400 text-sm mb-6 uppercase tracking-widest">упорядоченный</h3>
+                <ol class="space-y-4 text-sm text-gray-300">
+                    <li>
+                        <div class="flex gap-2"><span>1.</span> Lorem ipsum, dolor smit</div>
+                        <ul class="pl-6 mt-2 space-y-2 opacity-80">
+                            <li class="flex items-center gap-3">
+                                <span class="text-[#a37a53]">•</span> Lorem ipsum, dolor smit
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-[#a37a53]">•</span> Lorem ipsum, dolor smit
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-[#a37a53]">•</span> Lorem ipsum, dolor smit
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="flex gap-2"><span>2.</span> Lorem ipsum, dolor smit</div>
+                        <ul class="pl-6 mt-2 space-y-2 opacity-80">
+                            <li class="flex items-center gap-3">
+                                <span class="text-[#a37a53]">•</span> Lorem ipsum, dolor smit
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-[#a37a53]">•</span> Lorem ipsum, dolor smit
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="text-gray-400 text-sm mb-6 uppercase tracking-widest">Блок цитаты blockquote</h3>
+            <blockquote class="relative bg-[#3d2b1f] border-l-4 border-[#a37a53] p-10 md:p-14 overflow-hidden">
+                <div class="absolute top-8 left-6 text-[#a37a53] opacity-60">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H16.017C14.9124 8 14.017 7.10457 14.017 6V3L22.017 3V15C22.017 18.3137 19.3307 21 16.017 21H14.017ZM2.017 21L2.017 18C2.017 16.8954 2.91243 16 4.017 16H7.017C7.56928 16 8.017 15.5523 8.017 15V9C8.017 8.44772 7.56928 8 7.017 8H4.017C2.91243 8 2.017 7.10457 2.017 6V3L10.017 3V15C10.017 18.3137 7.33072 21 4.017 21H2.017Z" />
+                    </svg>
+                </div>
+                
+                <div class="relative z-10">
+                    <p class="text-gray-300 italic text-sm leading-relaxed mb-6">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <cite class="not-italic font-bold text-[#a37a53] text-sm">Lorem Ipsum</cite>
+                </div>
+            </blockquote>
+        </div>
+
+    </div>
+</section>
 </body>
 </html>
